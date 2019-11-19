@@ -1,0 +1,52 @@
+p {
+
+/* Content */
+width: 50%;
+
+
+
+
+/* Border */
+border: 2px solid blue;
+
+
+
+
+/* Padding */
+/* padding: 10px; */
+padding-left: 40px;
+
+
+
+
+/* Margin */
+/* Space on the outside of the border */
+/* To specify we call top or bottom or left or right */
+margin: 100px;
+
+}
+/* Excercise */
+
+h1{
+    text-align: center;
+    font-size: 6em;
+}
+
+table {
+    margin: auto;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+}
+
+.vertical {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.horizontal {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}

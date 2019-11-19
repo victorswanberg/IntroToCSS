@@ -1,0 +1,32 @@
+Objective 1 : CSS rules :
+
+
+Cascading Style Sheets: The skin where HTML is the noun. 
+Key basics:
+
+The general rule:
+
+THE SYNTAX
+
+slector {
+    property: value;
+    another property: value;
+}
+
+Keep in mind with redundant files.
+
+If you have a selector and then another selector after it the style will be overwritten.
+
+EDD: "Error Driven Development" is a pun on Test Driven Development. So besides writing tests, you should
+more importantly, write errors! And by errors I mean that the program should "throw" an error when something is wrong. 
+
+A pseudo-class is a selector that selects elements that are in a specific state, e.g. they are the first element of their type, or they are being hovered over by the mouse pointer. They tend to act as if you had applied a class to some part of your document, often helping you cut down on excess classes in your markup, and giving you more flexible, maintainable code.
+
+User-action pseudo classes
+
+Some pseudo-classes only apply when the user interacts with the document in some way. These user-action pseudo-classes, sometimes referred to as dynamic pseudo-classes, act as if a class had been added to the element when the user interacts with it. Examples include:
+
+:hover — mentioned above; this only applies if the user moves their pointer over an element, typically a link.
+:focus — only applies if the user focuses the element using keyboard controls.
+
+

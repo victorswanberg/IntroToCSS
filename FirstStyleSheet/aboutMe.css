@@ -1,0 +1,77 @@
+/* The is a style sheet for the about me page. */
+
+h1 {
+    color:red;
+    /* border-color:purple;
+    border-width: 5px;
+    border-style: solid; */
+    /* Shortcut Syntax */
+    border: 5px dashed purple;
+}
+
+
+/* Borders have three main parts
+width
+color
+style */
+
+h4 {
+    color:black;
+}
+
+li {
+    color:yellow;
+}
+
+p {
+    color:white;
+}
+
+.backgroundExamples {
+    background-color:black;
+}
+
+/* body {
+    background: url(https://images.pexels.com/photos/956981/milky-way-starry-sky-night-sky-star-956981.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-repeat: no-repeat;
+} */
+
+body {
+    background-color: cornflowerblue;
+}
+
+/* breathe annimations */
+.breathe {
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url("media/cloud.icon.png");
+    background-size: cover;
+    animation: animate 5s linear infinite; 
+    background-color:#475E69;
+  }
+  
+  @keyframes animate
+  {
+    0%
+    {
+      box-shadow: 0 0 0 15px rgba(0,0,255,.1), 0 0 0 30px rgba(0,0,255,.1),
+      0 0 0 45px rgba(0,0,255,.1), 0 0 0 60px rgba(0,0,255,.1);
+    }
+    50%
+    {
+      box-shadow: 0 0 0 25px rgba(0,0,255,.1), 0 0 0 50px rgba(0,0,255,.1),
+      0 0 0 75px rgba(0,0,255,.1), 0 0 0 100px rgba(0,0,255,.1);
+    }
+    100%
+    {
+      box-shadow: 0 0 0 15px rgba(0,0,255,.1), 0 0 0 30px rgba(0,0,255,.1),
+      0 0 0 45px rgba(0,0,255,.1), 0 0 0 60px rgba(0,0,255,.1);
+    }
+  
+  }

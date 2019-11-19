@@ -1,0 +1,6 @@
+/* Styles */
+
+/* Inheritance if we set a property that is not specific enough other elements will inherit this property. This is one way to use Div  */
+
+/* Example: Say that we have a ul inside our body along with an h1. If we use body to change the color to red both the ul an the h1 will inherit that style because we were not specific enough. */
+

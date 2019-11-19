@@ -1,0 +1,64 @@
+/* Basic elements and selectors */
+/* The three selectors are the element selector: This is when you select an html elemnt
+The ID selector: This is when you assign a specific id to one html element
+The Class selector: This is when you assign a class to a set of elements */
+
+body {
+    background-color: orange;
+}
+
+.FirstDemo {
+    border: 2px solid blue;
+}
+
+/* Adding in hooks or id. You can add it to any attribute or element ID="Anyname that you choose" You can then refer to that later using the hash key.The point of an id is to single something out. One note about an id it can only appear on the page one time.*/
+
+#special {
+    background-color: red;
+}
+
+/* Adding in a class. Selects all elements with a given class. You call a class with a . or period */
+
+.completed {
+    text-decoration: line-through;
+    /* references for line-through properties. https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-style */
+}
+
+
+/* More advance selectors
+The 30 selectors you must memorize.
+https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048*/
+
+/* Star selector: This will select every element on a page and apply that style. */
+* {
+    border: 1px solid lightgray;
+}
+
+/* Descendant: Combines two selectors such that elemants matched by the second selevetor areselected if they have an ancestor. */
+
+li a {
+   color: purple; 
+}
+
+/* Adjacent: It will select elements that come after another element. All li's after an h4 */
+
+h4 + ul {
+    border: 4px solid red;
+}
+/* Attribute: A way to select elements based off any attribute. select all inputs or images of a particular type */
+
+a[href="https://www.google.com"] {
+    background-color: gray;
+}
+
+/* Another example that is common is styling all inputs a specific way. */
+input[type="checkbox"] {
+    background: blue;
+}
+
+/* nth of type: Selector matches every element that is the nth child, of a particular type, of its parent. n can be a number, a keyword, or a formula. You can also either do odd or even.*/
+
+li:nth-of-type(even) {
+    text-decoration: overline;
+}
+
